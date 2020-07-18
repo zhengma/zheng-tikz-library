@@ -1,0 +1,28 @@
+\begin{tikzpicture}
+	\definecolor{ppl}{RGB}{204,102,255}
+	\draw plot[smooth, tension=.9] coordinates {(-10,-2) (-9,-0.5) (-7.5,-0.9) (-5,-2.5) (-2.5,0.5)};
+	\draw[->, >=latex, green!60!white, ultra thick] (-4.5, -2.25) -- (-3, -1) node[right] {\large $\mathbf{v}$};
+	\draw[->, >=latex, ppl, ultra thick] (-4.5, -2.25) -- (-4, -0.75) node[right] {\large $\mathbf{a}$};
+	
+	\draw[->, >=latex, black, thick] (-1, -2.5) -- (4, -2.5) node[below] {$x$};
+	\draw[->, >=latex, black, thick] (0, -3) -- (0, 1.5) node[left] {$y$};
+	\draw[->, >=latex, green!60!white, ultra thick] (0, -2.5) -- (3, 0) node[right] {\large $\mathbf{v}$};
+	\draw[dashed, black, thick] (3, 0) -- (3, -2.5);
+	\draw[dashed, black, thick] (3, 0) -- (0, 0);
+	\draw[->, >=latex, yellow!80!black, ultra thick] (0, -2.5) -- (3, -2.5) node[below] {\large $\mathbf{v}_x$};
+	\draw[->, >=latex, cyan!60!white, ultra thick] (0, -2.5) -- (0, 0) node[left] {\large $\mathbf{v}_y$};
+	
+	\draw[->, >=latex, ppl, ultra thick] (0, -2.5) -- (1, 0.5) node[right] {\large $\mathbf{a}$};
+	\draw[dashed, black, thick] (1, 0.5) -- (1, -2.5);
+	\draw[dashed, black, thick] (1, 0.5) -- (0, 0.5);
+	\draw[->, >=latex, red!60!white, ultra thick] (0, -2.5) -- (1, -2.5) node[below] {\large $\mathbf{a}_x$};
+	\draw[->, >=latex, blue!60!white, ultra thick] (0, -2.5) -- (0, 0.5) node[left] {\large $\mathbf{a}_y$};
+	
+	\draw[->, >=latex, black, thick] (7, -2.5) -- (10, 0) node[right] {\large $\mathbf{v}$};
+	\draw[->, >=latex, ppl, ultra thick] (7, -2.5) -- (8, 0.5) node[right] {\large $\mathbf{a}$};
+	\draw[->, >=latex, red!60!white, ultra thick] (7, -2.5) -- (9.0656, -0.7787) node[right, xshift=1, yshift = -3] {\large $\mathbf{a}_{\parallel}$};
+	\draw[dashed, black, thick] (8, 0.5) -- (9.0656, -0.7787);
+	\draw[->, >=latex, blue!60!white, ultra thick] (7, -2.5) -- (5.93443, -1.22131) node[left, xshift=-2] {\large $\mathbf{a}_{\perp}$};
+	\draw[dashed, black, thick] (8, 0.5) --(5.93443, -1.22131);
+	\draw[thick] (7.383,-2.1786) arc (39.8056:71.5651:0.5) node[xshift = 7, yshift = 4] {\large $\theta$};
+\end{tikzpicture}
