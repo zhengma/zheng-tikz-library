@@ -2,11 +2,11 @@
     \draw[thick] (2,-5) to [out=45,in=135] (5.14,-5) to [out=-45, in=225] (8.28,-5) to [out=45,in=135] (11.42,-5);
     \filldraw[fill=brown!40!white, draw=black, thick, rotate=20] (0, 0) to [out=10, in=170] (4, 0) to [out=250, in=70] (3.818,-0.5) to [out=170, in=10] (-0.182,-0.5) to [out=70, in=250] (0,0);
     \draw[->, blue!80!white, ultra thick](3.75,1.15) -- (6.75,1.15);
-% \draw[->, red!80!white, ultra thick](3.75,1.15) -- (3.75,1.92);
+%	\draw[->, red!80!white, ultra thick](3.75,1.15) -- (3.75,1.92);
     \draw[->, violet!80!white, ultra thick](3.75,1.15) -- (6.75,1.67);
     \node[color=violet!80!white] at (7,1.67) {\large $T_1$};
     \draw[->, blue!80!white, ultra thick](0,-0.25) -- (-3,-0.25);
-% \draw[->, red!80!white, ultra thick](0,-0.25) -- (0,-1.98);
+%	\draw[->, red!80!white, ultra thick](0,-0.25) -- (0,-1.98);
     \draw[->, violet!80!white, ultra thick](0,-0.25) -- (-3,-1.98);
     \node[color=violet!80!white] at (-3.3,-1.98) {\large $T_2$};
     \draw[dashed, thick] (0,2.7) -- (0,0);
